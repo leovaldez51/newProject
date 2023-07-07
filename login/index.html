@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="loginPage">
+      <h1 class="center">Login</h1>
+      <form action="../dashboard/dashboard.html" method="post" name="form1">
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <input
+          type="password"
+          name="foo"
+          id="password"
+          placeholder="Password"
+        />
+        <button type="submit" onclick="Validation()">Login</button>
+      </form>
+      <div class="footer">
+        <p class="center">OR</p>
+        <hr />
+        <p class="center">
+          Create an account ?
+          <a href="../signup/index.html" style="color: white">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
